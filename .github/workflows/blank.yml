@@ -34,5 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          git config --global user.email "663154780@qq.com"
+          git config --global user.name "Leleawa"
           ./gradlew applyPatches
           ./gradlew createReobfPaperclipJar
