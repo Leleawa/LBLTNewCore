@@ -83,7 +83,7 @@ index 0a5867b01c1ebf21d9add1d4a2843d15b8e1acb7..039323c3ccf6fe7829047075fa34768c
  
  public final class CraftServer implements Server {
 -    private final String serverName = "Purpur"; // Paper // Pufferfish // Purpur
-+    private final String serverName = "LBLTNewCore"; // Paper // Pufferfish // Purpur // LinearPurpur
++    private final String serverName = "LBLTNewCore (open-sourced on github.com/Leleawa/LBLTNewCore)"; // Paper // Pufferfish // Purpur // LinearPurpur
      private final String serverVersion;
      private final String bukkitVersion = Versioning.getBukkitVersion();
      private final Logger logger = Logger.getLogger("Minecraft");
@@ -109,7 +109,7 @@ index efe25d3894f3ad000257c72d9a5e06ef22446d41..2690859b4621805b7ef7caa3e8077911
      }
  
 -    public static String serverModName = "Purpur";
-+    public static String serverModName = "LBLTNewCore"; // LinearPurpur
++    public static String serverModName = "LBLTNewCore (open-sourced on github.com/Leleawa/LBLTNewCore)"; // LinearPurpur
      private static void serverModName() {
          serverModName = getString("settings.server-mod-name", serverModName);
      }
