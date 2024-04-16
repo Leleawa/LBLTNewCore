@@ -14,7 +14,7 @@ index 32366253c04c493135f2b22d1940f83669104723..98ceed420ec0794c9d7954172e2f3b54
  dependencies {
 -    // Purpur start
 -    implementation(project(":purpur-api"))
-+    implementation(project(":linearpurpur-api")) // Purpur // LinearPurpur
++    implementation(project(":linearpurpur-api")) // Purpur // LinearPurpur // LBLTNewCore
      implementation("io.papermc.paper:paper-mojangapi:${project.version}") {
          exclude("io.papermc.paper", "paper-api")
      }
@@ -27,7 +27,7 @@ index 32366253c04c493135f2b22d1940f83669104723..98ceed420ec0794c9d7954172e2f3b54
              "Main-Class" to "org.bukkit.craftbukkit.Main",
              "Implementation-Title" to "CraftBukkit",
 -            "Implementation-Version" to "git-Purpur-$implementationVersion", // Pufferfish // Purpur
-+            "Implementation-Version" to "git-NewLBLTCore-$implementationVersion", // Pufferfish // Purpur // LinearPurpur
++            "Implementation-Version" to "git-LBLTNewCore-$implementationVersion", // Pufferfish // Purpur // LinearPurpur
              "Implementation-Vendor" to date, // Paper
              "Specification-Title" to "Bukkit",
              "Specification-Version" to project.version,
@@ -50,8 +50,8 @@ index 462a6eed350fd660ddaf25d567bb6e97b77d0b2b..9407fefd7aa27d9bc9922332adad8f0c
      public Component getVersionMessage(@Nonnull String serverVersion) {
 -        String[] parts = serverVersion.substring("git-Purpur-".length()).split("[-\\s]"); // Purpur
 -        final Component updateMessage = getUpdateStatusMessage("PurpurMC/Purpur", "ver/" + getMinecraftVersion(), parts[0]); // Purpur
-+        String[] parts = serverVersion.substring("git-LinearPurpur-".length()).split("[-\\s]"); // Purpur // LinearPurpur
-+        final Component updateMessage = getUpdateStatusMessage("Leleawa/LBLTNewCore", "ver/" + getMinecraftVersion(), parts[0]); // Purpur // LinearPurpur
++        String[] parts = serverVersion.substring("git-LBLTNewCore-".length()).split("[-\\s]"); // Purpur // LinearPurpur // LBLTNewCore
++        final Component updateMessage = getUpdateStatusMessage("Leleawa/LBLTNewCore", "ver/" + getMinecraftVersion(), parts[0]); // Purpur // LinearPurpur // LBLTNewCore
          final Component history = getHistory();
  
          return history != null ? Component.join(net.kyori.adventure.text.JoinConfiguration.separator(Component.newline()), history, updateMessage) : updateMessage; // Purpur
