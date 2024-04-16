@@ -49,12 +49,13 @@ You will find a compiled Paperclip Jar file in `build/libs/`.
 
 > ⚠️ **99%的插件都应该能正常运作，除非有神秘插件直接访问`.mca`文件.**
 >
-> # 配置
-> 关于LBLTNewCore的所有配置都存储在Purpur的“Purpur.yml”文件中，您可能需要手动添加这些配置选项
-如果您要用LBLTNewCore替换Purpur，或者删除“Purpur.yml”文件以允许其重新生成。
->
-> ### 全局配置
-> ```yml
+## 配置
+
+关于LBLTNewCore的所有配置都存储在Purpur的 `Purpur.yml` 文件中，您可能需要手动添加这些配置选项，如果您要用LBLTNewCore替换Purpur，或者删除 `Purpur.yml` 文件以允许其重新生成。
+
+### 全局配置
+
+```yml
 region-format:
   linear:
     flush-frequency: 10
