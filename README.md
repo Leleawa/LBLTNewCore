@@ -85,7 +85,16 @@ git clone https://github.com/StupidCraft/LinearPurpur.git
 ./gradlew createReobfPaperclipJar
 ```
 
+
 你将在`build/libs`找到一个编译后的Paperclip Jar文件
 
 # v. 贷记(银行账户)；把…归于；把…记入贷方；认为…有(良好的品质或特点)；认为是…的功劳；(给银行账户)存入金额
 - [**Leleawa**](https://github.com/Leleawa) - skid LinearPurpur
+
+
+# Some patches from | 一些补丁来自
+Polpot (https://github.com/HaHaWTH/Polpot)
+PandaSpigot (https://github.com/hpfxd/PandaSpigot)
+Tuinity (https://github.com/Tuinity/Tuinity)
+Mirai (https://github.com/etil2jz/Mirai)
+Gale (https://github.com/GaleMC/Gale)
